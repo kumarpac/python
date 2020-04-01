@@ -1,0 +1,14 @@
+https://tecadmin.net/install-python-3-7-on-centos/
+https://tecadmin.net/install-python-3-7-on-centos/
+
+
+cd /usr/src/
+ls -l
+pwd
+wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz
+ls -l
+tar -zxvf Python-3.7.4.tgz
+./configure --enable-optimization
+make altinstall
+python3.7
+
